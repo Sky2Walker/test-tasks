@@ -13,3 +13,14 @@
   left: 39.99px;
   top: 0px;
 }
+
+.catalog {
+  position: absolute;
+  width: 371px;
+  height: 60px;
+  left: 40px;
+  top: 60px;
+  /* permanent yellow */
+  background: #FFBE48;
+  border-top-left-radius: 10px;
+}
