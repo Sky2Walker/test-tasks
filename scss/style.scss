@@ -1,30 +1,77 @@
-.header{
-position: absolute;
-width: 1520px;
-height: 128px;
-left: 200px;
-top: 20px;
+.header {
+  position: absolute;
+  width: 1520px;
+  height: 128px;
+  left: 200px;
+  top: 20px;
+}
+
+.wezom_logo {
+  position: absolute;
+  width: 114px;
+  height: 41px;
+  left: 39.99px;
+  top: 0;
+}
+
+.catalog {
+  position: absolute;
+  width: 371px;
+  height: 60px;
+  left: 40px;
+  top: 60px;
+  /* permanent yellow */
+  background: #FFBE48;
+  border-top-left-radius: 10px;
+  display: flex;
+}
+
+.catalog_image {
+  width: 25.5px;
+  height: 19.5px;
+  left: 261.5px;
+  top: 100px;
+  margin-top: 20px;
+  margin-left: 21.5px;
+}
+
+.text_catalog {
+  left: 67px;
+  top: 80px;
+  font-family: "Roboto",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  /* or 29px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  margin-left: 20px;
 }
 
 
-.wezom_logo{
-position: absolute;
-width: 114px;
-height: 41px;
-left: 39.99px;
-top: 0px;
+.container{
+  max-width: 1552px;
+padding: 0 15px;
+margin: 0 auto;
 }
 
 
-.catalog{
-position: absolute;
-width: 371px;
-height: 60px;
-left: 40px;
-top: 60px;
+.all_category_text{
+  position: absolute;
+width: 94px;
+height: 48px;
+left: calc(50% - 94px/2 - 421px);
+top: 80px;
 
-/* permanent yellow */
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
 
-background: #FFBE48;
-border-top-left-radius: 10px;
+color: #FFFFFF;
 }
