@@ -75,3 +75,52 @@ line-height: 24px;
 
 color: #FFFFFF;
 }
+
+
+.search{
+
+/* stroke */
+border: none;
+background: #DDE8F0;
+border-radius: 10px;
+
+
+
+position: absolute;
+width: 419px;
+height: 50px;
+left: 450px;
+top: 65px;
+
+display: flex;
+
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+display: flex;
+align-items: center;
+
+/* permanent dark blue */
+
+color: #33485D;
+
+opacity: 0.7;
+outline: none;
+
+  padding: 0 15px;
+}
+
+.search_field {
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  right: 0;
+  background: none;
+  border: none;
+}
