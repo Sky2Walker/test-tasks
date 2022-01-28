@@ -84,8 +84,8 @@
   background: #DDE8F0;
   border-radius: 10px;
   position: absolute;
-  width: 419px;
-  height: 50px;
+  height: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,6 +108,10 @@
 
 .search_field {
   position: relative;
+  width: 773.94px;
+  height: 50px;
+  left: 450px;
+  top: 65px;
 }
 
 .btn {
@@ -117,8 +121,9 @@
   border: none;
   height: 18px;
   width: 18.02px;
-  top: 50%;
+  top: 33%;
   bottom: 50%;
   -webkit-transform: translatex(-50%);
           transform: translatex(-50%);
+  cursor: pointer;
 }
