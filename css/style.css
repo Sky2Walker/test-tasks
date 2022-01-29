@@ -128,8 +128,8 @@
   cursor: pointer;
 }
 
-ul,
-li {
+li,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -173,10 +173,30 @@ a::after {
   background: #33485D;
   height: 1px;
   width: 0;
-  bottom: -10px;
+  bottom: -3px;
   font-weight: 700;
 }
 
 a:hover::after {
-  width: 10%;
+  width: 79.1px;
+  left: 0;
+}
+
+.login {
+  position: absolute;
+  left: 1391px;
+  top: 10px;
+  position: absolute;
+  right: 0;
+  background: none;
+  border: none;
+  height: 18px;
+  width: 18.02px;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #33485D;
 }
