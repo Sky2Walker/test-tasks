@@ -133,3 +133,58 @@ outline: none;
   transform: translatex(-50%);
   cursor: pointer;
 }
+
+ul,
+li {
+    margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu{
+  position: absolute;
+  width: 550.67px;
+  height: 24px;
+  top: 29px;
+  left: 600.01px;
+  bottom: 32px;
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  list-style: none;
+  color: #33485D;
+}
+
+.nav-menu__items {
+  display: flex;
+}
+
+.nav-menu__item + .nav-menu__item {
+  margin-left: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: #33485D;
+
+}
+
+
+a::after{
+  position: absolute;
+  content: "";
+  background: #33485D;
+  height: 1px;
+  width: 0;
+  bottom: -10px;
+  font-weight: 700;
+
+}
+
+
+a:hover::after{
+  width: 10%;
+}
