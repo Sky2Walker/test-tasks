@@ -180,6 +180,28 @@ a {
 }
 
 
+.menu__list-link {
+  position: relative;
+}
+
+.menu__list-link::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  top: 50%;
+  bottom: 50%;
+  right: -12px;
+  transform: translateY(-50%);
+  border-radius: 100%;
+}
+
+.menu__list-item:last-child .menu__list-link::after {
+  display: none;
+}
+
+
 .login {
   position: absolute;
   display: flex;
