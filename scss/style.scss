@@ -307,10 +307,10 @@ color: #33485D;
   position: absolute;
   display: flex;
   width: max-content;
-  left: 14,6px;
+  left: 1124,6px;
   top: 81px;
-  margin-left: 0px;
-
+  margin-left: -50px;
+  margin-top: -100px;
 
 }
 
@@ -414,4 +414,14 @@ text-transform: uppercase;
 /* permanent dark blue */
 
 color: #33485D;
+}
+
+
+.elips{
+width: 6px;
+height: 6px;
+border-radius: 100%;
+background-color: #33485D;
+left: 1215.21px;
+top: 35px;
 }
