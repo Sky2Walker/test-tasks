@@ -404,10 +404,12 @@ a {
 
 .burger_nav {
   position: absolute;
-  width: 371px;
+  width: 341px;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
+  top: 120px;
+  left: 40px;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -417,8 +419,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  vertical-align: top;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 14px 15px;

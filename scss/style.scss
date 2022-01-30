@@ -430,10 +430,10 @@ top: 35px;
 
 .burger_nav{
   position: absolute;
-  width: 371px;
+  width: 341px;
   height: max-content;
-
-
+  top: 120px;
+  left: 40px;
   font-size: 18px;
   font-family: 'Roboto',sans-serif;;
   font-weight: normal;
@@ -442,7 +442,10 @@ top: 35px;
    line-height: 70px;
    background: #FFFFFF;
    align-items: center;
-   box-shadow:  0 0 10px rgba(0,0,0,0.5);
+
+   vertical-align: top;
+   box-shadow:  0 5px 10px rgba(0,0,0,0.5);
+
    border-bottom-right-radius:10px;
    border-bottom-left-radius: 10px;
 
