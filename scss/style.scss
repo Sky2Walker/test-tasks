@@ -442,7 +442,7 @@ top: 35px;
    line-height: 70px;
    background: #FFFFFF;
    align-items: center;
-
+   display: flex;
    vertical-align: top;
    box-shadow:  0 5px 10px rgba(0,0,0,0.5);
 
@@ -451,4 +451,12 @@ top: 35px;
 
    padding: 14px 15px;
    padding-bottom: 15px;
+}
+
+
+.category__list-link{
+  display: flex;
+      align-items: center;
+      
+
 }
