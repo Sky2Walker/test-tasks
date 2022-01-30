@@ -186,7 +186,6 @@ a:hover::after {
   position: absolute;
   left: 1391px;
   top: 10px;
-  position: absolute;
   right: 0;
   background: none;
   border: none;
@@ -198,5 +197,136 @@ a:hover::after {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
+  color: #33485D;
+}
+
+.ch__lang__UA {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 1262px;
+  top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  background: none;
+  border: none;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+  color: #33485D;
+}
+
+.ch__lang__Ru {
+  position: absolute;
+  width: 18px;
+  height: 17px;
+  left: 1311px;
+  top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 1px;
+  background: none;
+  border: none;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+  color: #33485D;
+}
+
+.num__phone__header {
+  position: absolute;
+  left: 1280px;
+  right: -0.1%;
+  top: 32px;
+  bottom: 0%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+  text-transform: uppercase;
+  /* permanent dark blue */
+  color: #33485D;
+}
+
+.similar {
+  position: absolute;
+  left: 1414px;
+  right: 0%;
+  top: 81px;
+  bottom: 0%;
+  /* permanent smoke yellow */
+  border: 2px solid #FFCB6D;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: none;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.favorites {
+  position: absolute;
+  left: 1502px;
+  right: 0%;
+  top: 81px;
+  bottom: 0%;
+  border: 2px solid #FFCB6D;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: none;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.shopping__cart {
+  position: relative;
+  left: 1590px;
+  right: 0%;
+  top: 81px;
+  bottom: 0%;
+  /* white */
+  background: #FFFFFF;
+  /* permanent smoke yellow */
+  border: 2px solid #FFCB6D;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top-right-radius: 18px;
+  background: none;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  cursor: pointer;
+}
+
+.clc__cart_add {
+  position: absolute;
+  left: 60%;
+  right: 6.67%;
+  top: 11.67%;
+  bottom: 55%;
+  /* permanent yellow */
+  background: #FFBE48;
+  border: 2px solid #FFBE48;
+  border-radius: 18px;
+  height: 20px;
+  width: 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  /* permanent dark blue */
   color: #33485D;
 }
