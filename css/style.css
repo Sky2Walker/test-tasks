@@ -162,7 +162,6 @@ a {
   transition: all 0.3s ease-in-out;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
   color: #33485D;
 }
 
@@ -170,6 +169,11 @@ a {
   width: 100%;
   left: 0;
   right: auto;
+}
+
+.menu__list-item:hover {
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .menu__list-item + .menu__list-item {
@@ -269,6 +273,15 @@ a {
   text-transform: uppercase;
   /* permanent dark blue */
   color: #33485D;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 .similar {

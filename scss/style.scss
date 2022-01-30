@@ -148,7 +148,7 @@ a {
   transition: all .3s ease-in-out;
   font-size: 14px;
   font-family: 'Roboto',sans-serif;
-  font-weight: 700;
+
   color: #33485D;
 }
 
@@ -156,6 +156,12 @@ a {
   width: 100%;
   left: 0;
   right: auto;
+
+}
+
+.menu__list-item:hover {
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .menu__list-item + .menu__list-item {
@@ -271,6 +277,11 @@ color: #33485D;
 
 }
 
+
+.buttons{
+  display: flex;
+  width: max-content;
+}
 .similar{
   position: absolute;
 left: 1414px;
