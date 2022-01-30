@@ -264,7 +264,9 @@ a {
   right: -0.1%;
   top: 32px;
   bottom: 0%;
-  font-family: Roboto;
+  width: 119.14px;
+  height: 17px;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -276,12 +278,16 @@ a {
 }
 
 .buttons {
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+  left: 14, 6px;
+  top: 81px;
+  margin-left: 0px;
 }
 
 .similar {
@@ -298,6 +304,8 @@ a {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   cursor: pointer;
+  width: 90px;
+  height: 60px;
 }
 
 .favorites {
@@ -313,10 +321,12 @@ a {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   cursor: pointer;
+  width: 90px;
+  height: 60px;
 }
 
 .shopping__cart {
-  position: relative;
+  position: absolute;
   left: 1590px;
   right: 0%;
   top: 81px;
@@ -332,6 +342,8 @@ a {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   cursor: pointer;
+  width: 90px;
+  height: 60px;
 }
 
 .clc__cart_add {

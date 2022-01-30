@@ -262,7 +262,10 @@ right: -0.1%;
 top: 32px;
 bottom: 0%;
 
-font-family: Roboto;
+width: 119.14px;
+height: 17px;
+
+font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
@@ -279,9 +282,18 @@ color: #33485D;
 
 
 .buttons{
+  position: absolute;
   display: flex;
   width: max-content;
+  left: 14,6px;
+  top: 81px;
+  margin-left: 0px;
+
+
 }
+
+
+
 .similar{
   position: absolute;
 left: 1414px;
@@ -298,6 +310,9 @@ background: none;
 
 transform: translateX(-50%);
 cursor: pointer;
+
+width: 90px;
+height: 60px;
 
 }
 
@@ -318,12 +333,13 @@ cursor: pointer;
 
   transform: translateX(-50%);
   cursor: pointer;
-
+  width: 90px;
+  height: 60px;
 
 }
 
 .shopping__cart{
-position: relative;
+position: absolute;
 left: 1590px;
 right: 0%;
 top: 81px;
@@ -343,6 +359,8 @@ background: none;
 transform: translateX(-50%);
 cursor: pointer;
 
+width: 90px;
+height: 60px;
 }
 
 
