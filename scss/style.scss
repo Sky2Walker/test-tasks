@@ -171,19 +171,26 @@ a:hover::after {
 
 .login {
   position: absolute;
+  display: flex;
+  width: max-content;
   left: 1391px;
   top: 10px;
   right: 0;
   background: none;
   border: none;
   height: 18px;
-  width: 18.02px;
   transform: translatex(-50%);
   cursor: pointer;
+
+}
+
+.login__text{
   font-family: 'Roboto',sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #33485D;
+  margin-left: -72px;
+  top: 30px;
 }
 
 .ch__lang__UA{
