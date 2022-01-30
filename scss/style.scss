@@ -451,12 +451,45 @@ top: 35px;
 
    padding: 14px 15px;
    padding-bottom: 15px;
+   transform: translateX(-180%);
 }
 
 
 .category__list-link{
   display: flex;
-      align-items: center;
-      
+  align-items: center;
+
+
+}
+
+
+.category__list-link img{
+  margin-right: 16px;
+}
+
+
+.burger_nav.active{
+  position: absolute;
+  width: 341px;
+  height: max-content;
+  top: 120px;
+  left: 40px;
+  font-size: 18px;
+  font-family: 'Roboto',sans-serif;;
+  font-weight: normal;
+
+   color: #33485D;
+   line-height: 70px;
+   background: #FFFFFF;
+   align-items: center;
+   display: flex;
+   vertical-align: top;
+   box-shadow:  0 5px 10px rgba(0,0,0,0.5);
+
+   border-bottom-right-radius:10px;
+   border-bottom-left-radius: 10px;
+     transform: translateX(0);
+   padding: 14px 15px;
+   padding-bottom: 15px;
 
 }
