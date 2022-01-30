@@ -148,7 +148,7 @@ a {
   transition: all .3s ease-in-out;
   font-size: 14px;
   font-family: 'Roboto',sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   color: #33485D;
 }
 
@@ -163,11 +163,12 @@ a {
 }
 
 .menu{
+  position: absolute;
   left:631px;
   top:29px;
   font-size: 14px;
   font-family: 'Roboto',sans-serif;
-  font-weight: 400px;
+  font-weight: 400;
   color: #33485D;
 
 }
