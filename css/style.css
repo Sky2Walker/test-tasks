@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .header {
   position: absolute;
   width: 1520px;
@@ -475,4 +476,92 @@ a {
           transform: translateX(0);
   padding: 14px 15px;
   padding-bottom: 15px;
+}
+
+.basket__hovering {
+  position: absolute;
+  width: 338px;
+  height: 280px;
+  left: 0px;
+  top: 341px;
+  /* white */
+  background: #FFFFFF;
+  /* zalem-shadow */
+  -webkit-box-shadow: 0px 10px 80px rgba(0, 52, 41, 0.3);
+          box-shadow: 0px 10px 80px rgba(0, 52, 41, 0.3);
+  border-radius: 20px;
+}
+
+.basket__btn {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 277px;
+  height: 60px;
+  left: 170px;
+  top: 131px;
+  background: #47B39C;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 21px;
+}
+
+.basket_btn_txt {
+  margin-right: 16px;
+}
+
+.in__cart {
+  position: absolute;
+  top: 48px;
+  left: 30px;
+}
+
+.in__cart_totall {
+  position: absolute;
+  top: 69px;
+  left: 30px;
+}
+
+.basket__hovering {
+  font-family: "Roboto", sans-serif;
+  color: #5C6D7D;
+}
+
+.edit_order {
+  position: absolute;
+  top: 221px;
+  left: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #33485D;
+  position: relative;
+  width: 181.97px;
+}
+
+.edit_order::before {
+  content: "";
+  left: 0;
+  /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0;
+  /*задаём длинну линии до наведения курсора*/
+  height: 1px;
+  /*задаём ширину линии*/
+  background-color: #5C6D7D;
+  /*задаём цвет линии*/
+  position: absolute;
+  -webkit-transition: width 0.3s ease-out;
+  transition: width 0.3s ease-out;
+}
+
+.edit_order:hover:before {
+  width: 181.97px;
 }
