@@ -669,3 +669,61 @@ main {
   background: -webkit-gradient(linear, left top, left bottom, from(#219653), to(#FFFFFF));
   background: linear-gradient(180deg, #219653 0%, #FFFFFF 100%);
 }
+
+.bag {
+  position: absolute;
+  width: 1522px;
+  height: 957px;
+  left: 199px;
+  top: 30px;
+  background: #FFFFFF;
+}
+
+.text_bag {
+  position: absolute;
+  width: 315px;
+  height: 14px;
+  left: 44px;
+  top: 20px;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 120%;
+  /* or 14px */
+  color: #33485D;
+  opacity: 0.5;
+}
+
+.top {
+  position: absolute;
+  width: 589px;
+  height: 22px;
+  left: 769px;
+  top: 93px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  vertical-align: center;
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.art {
+  position: absolute;
+  width: 109px;
+  height: 17px;
+  left: 1249px;
+  top: 66px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+  /* permanent blue smoke */
+  color: #5C6D7D;
+}
