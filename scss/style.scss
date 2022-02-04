@@ -452,7 +452,28 @@ a {
 
 .category__list-item{
   width: 350px;
+  position: relative;
 }
+
+.category__list-item::before{
+width: 350px;
+width: 358px;
+height: 50px;
+left: 358px;
+top: -1px;
+content: "";
+position: relative;
+
+
+
+background: #DDE8F0;
+border-radius: 20px;
+}
+
+.category__list-item:hover:before{
+  width: 100%;
+}
+
 
 .a{
   display: flex;
@@ -478,6 +499,7 @@ a {
   border-bottom-left-radius: 10px;
   transform: translateX(0);
   padding: 14px 15px 15px;
+  z-index: 999999999;
 }
 
 .basket__hovering {
@@ -545,6 +567,7 @@ a {
   left: 1250px;
   top: 150px;
   transform: translateX(0);
+  z-index: 99999999;
 
 }
 
@@ -583,3 +606,13 @@ a {
 
 
 /*main-part*/
+
+main{
+  position: absolute;
+width: 1920px;
+height: 720px;
+left: calc(50% - 1920px/2);
+top: 170px;
+
+background: linear-gradient(180deg, #219653 0%, #FFFFFF 100%);
+}
