@@ -919,6 +919,11 @@ main {
   outline: none;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px #DDE8F0;
+  border-bottom: 1px #DDE8F0;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -934,4 +939,9 @@ main {
   overflow: hidden;
   -webkit-transition: max-height 0.2s ease-out;
   transition: max-height 0.2s ease-out;
+}
+
+.acc_path {
+  position: absolute;
+  left: 570px;
 }

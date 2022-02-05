@@ -872,6 +872,7 @@ font-family: 'Roboto',sans-serif;
 color:#5C6D7D;
 font-size: 16px;
 line-height: 19,2px;
+
 }
 
 
@@ -886,6 +887,12 @@ line-height: 19,2px;
     border: none;
     outline: none;
     transition: 0.4s;
+    display: flex;
+    border-top: 1px #DDE8F0;;
+    border-bottom: 1px #DDE8F0;;
+    
+
+
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -900,4 +907,9 @@ line-height: 19,2px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.acc_path{
+  position: absolute;
+  left: 570px;
 }
