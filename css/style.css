@@ -1038,4 +1038,7 @@ main {
 .active,
 .demo:hover {
   opacity: 1;
+  border: 2px solid #229754;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
