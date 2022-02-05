@@ -733,7 +733,7 @@ main {
   width: 589px;
   height: 221px;
   left: 726px;
-  top: 58px;
+  top: 211px;
 }
 
 .promo {
@@ -788,11 +788,15 @@ main {
   display: flex;
 }
 
+.simil_fav {
+  left: 290px;
+}
+
 .fav_con {
   position: absolute;
   left: 302px;
   right: 0;
-  top: 120px;
+  top: 220px;
   bottom: 0;
   border: 2px solid #FFCB6D;
   -webkit-box-sizing: border-box;
@@ -809,7 +813,7 @@ main {
   position: absolute;
   left: 390px;
   right: 0;
-  top: 120px;
+  top: 220px;
   bottom: 0;
   /* permanent smoke yellow */
   border: 2px solid #FFCB6D;
@@ -821,4 +825,72 @@ main {
   cursor: pointer;
   width: 90px;
   height: 60px;
+}
+
+.buy_in_click {
+  position: absolute;
+  width: 226px;
+  height: 60px;
+  left: 580px;
+  top: 220px;
+  border: 2px solid #FFCB6D;
+  background: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom-right-radius: 20px;
+  border: none;
+  -webkit-transform: translatex(-50%);
+          transform: translatex(-50%);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #5C6D7D;
+  text-align: center;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.center_txt {
+  position: absolute;
+  top: 79px;
+  left: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.center_txt_b {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+  /* or 43px */
+  /* Red */
+  color: #EB5757;
+}
+
+.center_txt_s {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  /* or 19px */
+  /* permanent dark blue */
+  color: #33485D;
+  opacity: 0.5;
+}
+
+.img_centr_txt {
+  position: absolute;
+  width: 77px;
+  height: 0px;
+  left: 107px;
+  top: 23px;
+  /* Red */
+  background-color: #EB5757;
+  border: 2px solid #EB5757;
 }
