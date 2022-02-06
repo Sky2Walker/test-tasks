@@ -1010,3 +1010,51 @@ line-height: 19,2px;
   border: 2px solid #229754;
 box-sizing: border-box;
 }
+
+
+
+
+
+.characteristick{
+  position: absolute;
+width: 588px;
+height: 249px;
+left: 300px;
+top: 800px;
+font-family: 'Roboto',sans-serif;
+}
+
+.char_top_text{
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 120%;
+/* or 36px */
+
+
+/* permanent dark blue */
+display: flex;
+color: #33485D;
+}
+
+
+.char_top_text p{
+
+  color: #219653;
+  margin-top:0px;
+  margin-left: 20px;
+}
+
+
+.character_main{
+  color:#5C6D7D;
+}
+
+.all_chara{
+  font-family: 'Roboto',sans-serif;
+
+}
+
+.all_chara img{
+  margin-left: 11px;
+}
