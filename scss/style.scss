@@ -1058,3 +1058,85 @@ color: #33485D;
 .all_chara img{
   margin-left: 11px;
 }
+
+
+
+.subscribe{
+  position: absolute;
+width: 1440px;
+height: 200px;
+left: 200px;
+top: 1300px;
+
+background: #0D4128;
+border-radius: 10px;
+  p{
+    position: absolute;
+width: 1236px;
+height: 36px;
+left: 102px;
+top: 33px;
+
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 120%;
+/* identical to box height, or 36px */
+
+text-align: center;
+
+/* white */
+
+color: #FFFFFF;
+  }
+}
+
+
+.sub_field {
+  position: absolute;
+width: 586px;
+height: 60px;
+left: 427px;
+top: 89px;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 3px;
+}
+
+.tel{
+  position: absolute;
+width: 586px;
+height: 60px;
+left: 427px;
+top: 89px;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 3px;
+}
+
+.sub_f_btn{
+  position: absolute;
+width: 213px;
+height: 56px;
+left: 798px;
+top: 91px;
+
+background: #FFA800;
+
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+border: none;
+
+/* white */
+
+color: #FFFFFF;
+}
