@@ -337,7 +337,7 @@ a {
   height: 60px;
 }
 
-.shopping__cart.active {
+.shopping__cart.dactive {
   position: absolute;
   left: 1590px;
   right: 0;
@@ -355,7 +355,7 @@ a {
   height: 60px;
 }
 
-.shopping__cart.active svg path {
+.shopping__cart.dactive svg path {
   fill: #FFFFFF;
 }
 
@@ -383,7 +383,7 @@ a {
   color: #33485D;
 }
 
-.clc__cart_add.active {
+.clc__cart_add.dactive {
   position: absolute;
   left: 60%;
   right: 6.67%;
@@ -479,7 +479,7 @@ border-radius: 20px;
   display: flex;
 }
 
-.burger_nav.active {
+.burger_nav.bactive {
   position: absolute;
   width: 341px;
   height: max-content;
@@ -561,7 +561,7 @@ border-radius: 20px;
 
 }
 
-.basket__hovering.active {
+.basket__hovering.dactive {
   font-family: 'Roboto',sans-serif;
   color: #5C6D7D;
   left: 1250px;
@@ -665,6 +665,8 @@ font-family: 'Roboto'sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
+margin-left: 20px;
+padding-left: 20px;
 }
 
 
@@ -803,7 +805,7 @@ background: none;
 
 box-sizing: border-box;
 border-bottom-right-radius: 20px;
-border: none;
+vertical-align: center;
   transform: translatex(-50%);
   cursor: pointer;
   font-family: 'Roboto',sans-serif;
@@ -896,7 +898,7 @@ line-height: 19,2px;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.sactive, .accordion:hover {
     background-color: #ccc;
 }
 
@@ -1093,18 +1095,7 @@ color: #FFFFFF;
 }
 
 
-.sub_field {
-  position: absolute;
-width: 586px;
-height: 60px;
-left: 427px;
-top: 89px;
 
-/* white */
-
-background: #FFFFFF;
-border-radius: 3px;
-}
 
 .tel{
   position: absolute;
@@ -1195,4 +1186,19 @@ text-align: right;
 color: #FFFFFF;
 
 opacity: 0.5;
+}
+
+
+
+.in_str{
+  font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+text-align: right;
+
+color: #249755;
 }
