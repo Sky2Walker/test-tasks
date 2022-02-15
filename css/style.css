@@ -1090,7 +1090,7 @@ main {
   width: 1440px;
   height: 200px;
   left: 200px;
-  top: 1300px;
+  top: 2024px;
   background: #0D4128;
   border-radius: 10px;
 }
@@ -1145,7 +1145,7 @@ main {
   width: 1920px;
   height: 60px;
   left: 0px;
-  top: 1695px;
+  top: 2395px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1195,4 +1195,109 @@ main {
   /* or 19px */
   text-align: right;
   color: #249755;
+}
+
+.btn_all_ {
+  position: absolute;
+  width: 147px;
+  height: 40px;
+  left: 1150px;
+  top: 2112px;
+  background: none;
+  border: 1px solid #FFA800;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+
+.right_comm {
+  position: absolute;
+  width: 576px;
+  height: 36px;
+  left: 950px;
+  top: 1700px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 120%;
+  /* identical to box height, or 36px */
+  /* permanent dark blue */
+  color: #33485D;
+}
+
+.text-com1-2 {
+  position: absolute;
+  width: 325px;
+  height: 32px;
+  left: 950px;
+  top: 1738px;
+  margin-right: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  /* identical to box height, or 32px */
+  /* permanent dark blue */
+  color: #33485D;
+}
+
+.comment1-main {
+  position: absolute;
+  width: 559px;
+  height: 146px;
+  left: 950px;
+  top: 1769px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  /* permanent blue smoke */
+  color: #5C6D7D;
+}
+
+.hor_line {
+  width: 587px;
+  size: 1px;
+  color: "gray";
+  position: absolute;
+  top: 1944px;
+  left: 950px;
+}
+
+.text-com3-4 {
+  position: absolute;
+  top: 1982px;
+  left: 950px;
+  width: 513px;
+  height: 32px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 200%;
+  /* identical to box height, or 32px */
+  /* permanent dark blue */
+  color: #33485D;
+}
+
+.comment2-main {
+  position: absolute;
+  width: 559px;
+  height: 93px;
+  left: 950px;
+  top: 2011px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  /* permanent blue smoke */
+  color: #5C6D7D;
 }
